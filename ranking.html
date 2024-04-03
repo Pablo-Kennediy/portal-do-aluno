@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Portal</title>
+</head>
+
+<body>
+    <div class="interface">
+        <header>
+            <aside class="fixed">
+                <button class="botao-menu">Menu</button>
+                <nav class="menu">
+                    <ul>
+                        <a href="conteudos.html">
+                            <li>Contéudos</li>
+                        </a>
+                        <a href="ranking.html">
+                            <li>Ranking</li>
+                        </a>
+                        <a href="perfil.html">
+                            <li>Perfil</li>
+                        </a>
+                        <a href="minhaConta.html">
+                            <li>Minha conta</li>
+                        </a>
+                        <a href="atendimento.html">
+                            <li>Atendimento</li>
+                        </a>
+                    </ul>
+                </nav>
+            </aside>
+        </header>
+
+
+        <section id="ranking" class="ranking">
+            <h1>Compare seu progresso com outros participantes</h1>
+            <p>Conquiste mais pontos de experiência postando comentários relevantes, avaliando e concluindo todas as
+                aulas.
+                Se esforce para ir até a linha de chegada e concluir seu curso com máximo de aproveitamento.</p>
+            <article>
+                <input type="text" list="lista-pontuacoes-cursos" placeholder="Selecione uma opção">
+                <datalist id="lista-pontuacoes-cursos">
+                    <option value="Todas as pontuações acumuladas">Todas as pontuações acumuladas</option>
+                    <option value="INTERNET DAS COISAS">INTERNET DAS COISAS</option>
+                    <option value="MARCAÇÕES HTML E CSS">MARCAÇÕES HTML E CSS</option>
+                    <option value="PROGRAMANDO EM PYTHON">PROGRAMANDO EM PYTHON</option>
+                    <option value="PROGRAMANDO EM JAVA SCRIPT">PROGRAMANDO EM JAVA SCRIPT</option>
+                </datalist>
+            </article>
+        </section>
+    </div>
+</body>
+
+</html>

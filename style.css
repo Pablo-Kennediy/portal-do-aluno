@@ -42,6 +42,9 @@ h6 {
   font-weight: bold;
   color: #2309b6;
 }
+ul{
+  list-style: none;
+}
 li{
   font-size: x-large;
 }
