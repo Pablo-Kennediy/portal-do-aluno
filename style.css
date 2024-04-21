@@ -7,10 +7,14 @@
 
 /* Cores */
 body {
-  background-color: #fafafa;
-  color: #333;
+background-image: url("fundo.png");  color: #333;
 }
-
+h1,
+h2,
+p,
+li{
+  font-size: x-large;
+}
 /* Tipografia */
 body {
   font-family: sans-serif;
@@ -30,7 +34,7 @@ input{
 }
 a{
   text-decoration: none;
-  color: rgb(179, 152, 3);
+  color: rgb(0, 0, 0);
 }
 h1,
 h2,
@@ -94,7 +98,7 @@ p {
 .conteudos {
   margin-top: 50px;
   padding: 20px;
-  background-color: #fff;
+  background-: #fff;
   border-radius: 5px;
 }
 
@@ -145,10 +149,10 @@ p {
 .ranking,
 .perfil,
 #minhaConta,
-.atendimento {
-  margin-top: 50px;
+.atendimento
+.conteudos {
   padding: 20px;
-  background-color: #fff;
+  background-color: #ffffff00;
   border-radius: 5px;
 }
 
@@ -280,5 +284,5 @@ section{
   margin-bottom: 80vh;
 }
 aside{
-  background-color: blueviolet;
+  background-color: rgba(95, 226, 43, 0.068);
 }
